@@ -11,3 +11,10 @@ export const decreMENT=()=>
         type : "DECREMENT"
     }
 }
+
+export const resetCounter=()=>
+{
+    return{
+        type : "RESETCOUNTER"
+    }
+}
